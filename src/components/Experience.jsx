@@ -2,7 +2,7 @@ import React from 'react'
 import Css from '../assets/css.png'
 import Html from '../assets/html.png'
 import Javascript from '../assets/javascript.png'
-import Github from '../assets/github.png'
+import Github from '../assets/github-white.png'
 import Nodejs from '../assets/nodejs.png'
 import Reactjs from '../assets/react.png'
 
@@ -32,7 +32,7 @@ const Experience = () => {
             id:4,
             src: Reactjs,
             title: 'REACT',
-            style: 'shadow-blue-500' 
+            style: 'shadow-blue-300' 
          },
          {
             id:5,
@@ -44,14 +44,14 @@ const Experience = () => {
             id:6,
             src: Github,
             title: 'GITHUB',
-            style: 'shadow-blue-500' 
+            style: 'shadow-white' 
          }
     ]
 
 
   return (
 
-    <div name="eperience" className=' bg-gradient-to-b  from-gray-800 to-black w-full h-screen '>
+    <div name="experience" className=' bg-gradient-to-b  from-gray-800 to-black w-full h-screen '>
         <div className='max-w-screen-lg p-4 mx-auto felx flex-col justify-center w-full h-full text-white'>
             <div className=''>
                 <p className='text-4xl font-bold border-b-4 border-gray-500  px-2 sm:pt-11 inline'>Experience</p>
